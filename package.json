@@ -33,13 +33,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "deploy": "gatsby build && node ./deploy.js",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy:github": "npm run build && node ./scripts/deploy"
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "prettier": "1.17.0"
   }
 }

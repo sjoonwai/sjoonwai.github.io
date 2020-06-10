@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Marcus Soon',
   twitterUsername: '_franciscodf',
   linkedinURL: 'https://www.linkedin.com/in/joon-wai-s-819a5364/',
-  authorAvatar: '/images/marcus.jpg',
+  authorAvatar: '/images/marcus2.jpg',
   authorDescription: `Enthusiastic web developer with proficient knowledge in full stack application development.
   Acknowledges the importance of testing and have a good sense in debugging process. An avid learner, constantly motivated to learn new technologies and keeping up-to-date with latest market trends.
   Able to effectively self-manage during independent projects, as well as collaborate in a team setting.`,
@@ -16,6 +16,10 @@ module.exports = {
     },
     {
       name: 'ASP.NET',
+      level: 75,
+    },
+    {
+      name: '.NET Core',
       level: 75,
     },
     {
@@ -39,6 +43,14 @@ module.exports = {
       level: 80,
     },
     {
+      name: 'DevExtreme',
+      level: 70,
+    },
+    {
+      name: 'AngularJS',
+      level: 70,
+    },
+    {
       name: 'HTML',
       level: 80,
     },
@@ -49,6 +61,10 @@ module.exports = {
     {
       name: 'MySQL',
       level: 75,
+    },
+    {
+      name: 'PHP',
+      level: 70,
     },
     {
       name: 'Adobe Photoshop',
@@ -64,13 +80,44 @@ module.exports = {
     },
   ],
   jobs: [
+	{
+      company: 'TimeTec Computing',
+      begin: {
+        month: 'Jan',
+        year: '2020',
+      },
+      duration: null,
+      occupation: 'Senior DevOps Engineer',
+      descriptions: [
+        {
+          data:
+            'Focus on DevOps implementation of web applications and services.',
+        },
+        {
+          data:
+            'Research on latest DevOps tools.',
+        },
+        {
+          data:
+            'Defined and implement DevOps practices and guide team members on new practices.',
+        },
+        {
+          data:
+            'Improve, monitor and control DevOps practices.',
+        },
+        {
+          data:
+            'Develop and document guidelines.',
+        }
+      ],
+    },
     {
       company: 'TimeTec Computing',
       begin: {
         month: 'Aug',
         year: '2017',
       },
-      duration: null,
+      duration: '2 years',
       occupation: 'Analyst Programmer',
       descriptions: [
         {
@@ -83,7 +130,7 @@ module.exports = {
         },
         {
           data:
-            'Conducted full stack development using DevExpress as front-end framework and C# as back-end.',
+            'Conducted full stack development using DevExpress and DevExtreme (AngularJS) as front-end framework and C# as back-end.',
         },
         {
           data:
@@ -147,7 +194,7 @@ module.exports = {
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/bg4.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'UA-147428693-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
