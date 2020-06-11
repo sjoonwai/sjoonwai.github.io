@@ -43,14 +43,6 @@ module.exports = {
       level: 80,
     },
     {
-      name: 'DevExtreme',
-      level: 70,
-    },
-    {
-      name: 'AngularJS',
-      level: 70,
-    },
-    {
       name: 'HTML',
       level: 80,
     },
